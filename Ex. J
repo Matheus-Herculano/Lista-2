@@ -1,0 +1,19 @@
+#include <stdio.h>
+void main ()
+
+{
+    int a;
+
+    printf("Insira o valor para A: ");
+    scanf("%d", &a);
+
+    if ((a % 2)==0)
+    {
+        printf("O numero eh par");
+    }
+
+    else
+    {
+        printf("O numero eh impar");
+    }
+}
