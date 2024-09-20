@@ -1,0 +1,74 @@
+#include <stdio.h>
+void main ()
+
+{
+    int a, b, c, d, e, aux;
+
+    printf("Digite cinco numeros:\n");
+    scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
+
+    if (a>b)
+    {
+        aux = a;
+        a = b;
+        b = aux;
+    }
+
+    if (a>c)
+    {
+        aux = a;
+        a = c;
+        c = aux;
+    }
+
+    if (b>c)
+    {
+        aux = b;
+        b = c;
+        c = aux;
+    }
+
+    if (a>e)
+    {
+        aux = a;
+        a = e;
+        e = aux;
+    }
+
+    if (b>d)
+    {
+        aux = b;
+        b = d;
+        d = aux;
+    }
+
+    if (c>d)
+    {
+        aux = c;
+        c = d;
+        d = aux;
+    }
+
+    if (b>e)
+    {
+        aux = b;
+        b = e;
+        e = aux;
+    }
+
+    if (c>e)
+    {
+        aux = c;
+        c = e;
+        e = aux;
+    }
+
+    if (d>e)
+    {
+        aux = d;
+        d = e;
+        e = aux;
+    }
+
+    printf("O maior numero eh: %d\nE o menor eh: %d\n", e, a);
+}
