@@ -1,0 +1,19 @@
+#include <stdio.h>
+void main()
+
+{
+    int zigirigidum;
+
+    printf("Digite um valor entre 1 e 9: ");
+    scanf("%d", &zigirigidum);
+
+    if (zigirigidum<10)
+    {
+        printf("O valor esta na faixa permitida");
+    }
+
+    else
+    {
+        printf("O valor nao esta na faixa permitida");
+    }
+}
