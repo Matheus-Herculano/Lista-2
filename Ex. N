@@ -1,0 +1,16 @@
+#include <stdio.h>
+void main()
+
+{
+    int a, b, c, aux;
+
+    printf ("Insira um valor para a, um para b e outros para c: \n \n \n");
+    scanf("%d %d %d", &a, &b, &c);
+
+    aux = a+b+c;
+
+    if (aux>100)
+    {
+        printf("o resultado de %d+%d+%d eh igual a %d", a, b, c, aux);
+    }
+}
