@@ -1,0 +1,16 @@
+#include <stdio.h>
+void main()
+
+{
+    int finlandia, aux;
+
+    printf("Escreva o primeiro numero que vem a sua cabessa: ");
+    scanf("%d", &finlandia);
+
+    aux = finlandia * 2;
+
+    if (aux>30)
+    {
+        printf("O resultadi de %dx2 eh: %d", finlandia, aux);
+    }
+}
